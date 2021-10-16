@@ -1,24 +1,27 @@
 ## Example Search Location (typeorm)
+- Buscar "dados" de usuários próximo a localização do usuário atual
 
----
+___
 
 ### Objetivo 🌟
 
-- Buscar "dados" de usuários próximo a localização do usuário atual
 - Aprendizado
 
 ___
 
 ## Tecnologias ☘️
 
-- [typeorm]("https://typeorm.io")
-- [Postgres]("https://postgressql.org")
-- [kartoza/postgis]("https://hub.docker.com/r/kartoza/postgis")
-- [Express]("https://expressjs.com")
-- [Typescript]("https://typescriptlang.org")
+- [typeorm](https://typeorm.io)
+- [Postgres](https://postgresql.org)
+- [kartoza/postgis](https://hub.docker.com/r/kartoza/postgis)
+- [Express](https://expressjs.com)
+- [Typescript](https://typescriptlang.org/)
 
 ___
+
 ## Run 🏃‍♂️
+
+[JSON-Insomnia](./.github/Insomnia-All_2021-10-16.json)
 
 ``` bash
 # clone o projeto
@@ -33,5 +36,3 @@ docker run --name johnDoe -e POSTGRES_USER=johnDoe -e POSTGRES_PASSWORD=johnDoe 
 yarn typeorm migration:run
 yarn dev
 ```
-
-[JSON-Insomnia]('./.github/Insomnia-All_2021-10-16.json')
