@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "rootDir": ".",
+    "baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@shared/*": ["shared/*"]
+    }
+  }
+}
